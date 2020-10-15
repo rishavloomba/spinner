@@ -49,7 +49,7 @@ function Spinner() {
         {
           web_client: 'my pwa',
           timestamp: new Date(),
-          spin_result_index: selectedIndex
+          spin_result_index: rewardIndex
         }
       ]
     };
