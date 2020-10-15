@@ -1,0 +1,29 @@
+.reward {
+  position: relative;
+  bottom: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.typo-first {
+  max-width: 215px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.typo-second {
+  max-width: 267px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

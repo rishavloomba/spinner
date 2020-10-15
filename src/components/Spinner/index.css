@@ -1,0 +1,130 @@
+.circle {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  padding: 0;
+  margin: 1em auto;
+  border-radius: 50%;
+  overflow: hidden;
+  list-style: none;
+  box-shadow: 1px 3.16862px 6.33724px rgba(0, 0, 0, 0.12);
+  bottom: 35px;
+}
+
+li {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+}
+
+.text {
+  position: absolute;
+  left: -100%;
+  height: 200%;
+  width: 200%;
+  cursor: pointer;
+  text-align: center;
+  transform: skewY(45deg) rotate(22.5deg);
+}
+
+.spin-btn {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #ffdda1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 220px;
+  bottom: 235px;
+  box-shadow: inset 0px -5.744px 5.744px 2.77px rgba(89, 57, 13, 0.35);
+  cursor: pointer;
+}
+
+.arrow-round {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  bottom: 190px;
+  margin: 10px auto;
+  border: 12px solid #bbbbbb;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(8deg);
+}
+.arrow-round1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  bottom: 333px;
+  transform: rotate(11deg);
+  right: 6px;
+  border: 12px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.arrow-round::after {
+  content: '';
+  position: absolute;
+  border: 23px solid #ffffff;
+  top: 81px;
+  left: 77px;
+  border-bottom-color: #bbbbbb;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-color: transparent;
+  transform: rotate(270deg);
+}
+
+.spin-text {
+  color: 000000, 87%;
+}
+
+.base {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 6px;
+  border-radius: 2px;
+  background-color: #ffdda1;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 27px solid #ffdda1;
+  top: 5px;
+  z-index: 1;
+}
+
+.reward-wrap {
+  transform: rotate(270deg);
+  padding-right: 80px;
+}
+
+.mainText {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.helpText {
+  color: rgba(255, 255, 255, 0.87);
+  margin: 0;
+}
