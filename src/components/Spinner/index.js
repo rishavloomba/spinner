@@ -54,7 +54,7 @@ function Spinner() {
       ]
     };
     let promise = window.gapi.client.sheets.spreadsheets.values.append(params, valueRangeBody);
-    promise.catch();
+    promise.then(()=>{}).catch();
   };
 
   //callback when spin trigger and animation activates from this method
