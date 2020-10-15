@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Typography from '../Common/TypoGraphy';
-import Pull from 'react-pull-to-refresh';
+// import Pull from 'react-pull-to-refresh';
 import { config } from '../../config';
 import { wheelOffers } from '../../constants/constant';
 import './index.css';
