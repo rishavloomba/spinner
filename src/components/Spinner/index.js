@@ -100,12 +100,12 @@ function Spinner() {
   //jsx for wheel and refesh to pull
   return (
     <>
-      <Pull
+      {/* <Pull
         onRefresh={() => {
           spinnerRef.current.style.transform = `rotate(0deg)`;
         }}
         triggerHeight={100}
-      >
+      > */}
         <div className="spinner">
           <div ref={pointerRef} className="stoper">
             <div className="base"></div>
@@ -170,7 +170,7 @@ function Spinner() {
         </div>
         <div className="arrow-round"></div>
         <div className="arrow-round1"></div>
-      </Pull>
+      {/* </Pull> */}
     </>
   );
 }
